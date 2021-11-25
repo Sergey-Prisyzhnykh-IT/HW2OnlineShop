@@ -6,7 +6,7 @@ namespace HW2OnlineShop
     {
 
 
-        public StringBuilder ShowProduct (Dictionary<string, decimal> product, DateTime dateTime)
+        public StringBuilder ShowProduct(Dictionary<string, decimal> product, DateTime dateTime)
         {
             StringBuilder showProduct = new StringBuilder();
 
@@ -18,9 +18,7 @@ namespace HW2OnlineShop
                     showProduct.Append(pr.Key + pr.Value + "\n");
 
             return showProduct;
-
-
-
         }
+
     }
 }
